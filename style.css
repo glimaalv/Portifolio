@@ -204,7 +204,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-sociais button{
+.btn-sociais button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -309,4 +309,33 @@ form .btn-enviar input[type=submit]{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+}
+
+/* ESTILO DO FOOTER */
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3f;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #a0ffe6;
+}
+
+footer .line-footer p i{
+    color: #a0ffe6;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #f8f8ff;
+    text-decoration: none;
 }
